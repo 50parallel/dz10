@@ -1,0 +1,114 @@
+@import "fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+.container {
+	display: grid;
+	width: 1200px;
+	height: 800px;
+    padding: 20px;
+    background-color: turquoise;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;	
+}
+.block_6{
+    background: white;
+}
+.block_1 img{
+    height: 150px;
+    width: 100%;
+}
+.block_1{
+    background: white;
+}
+
+
+.block_2 img{
+    height: 100px;
+    width: 100%;
+}
+.block_2{
+    background: white;
+}
+
+
+.block_3 img{
+    height: 100px;
+    width: 100%;
+}
+.block_3{
+    background: white;
+}
+
+
+.block_4 img{
+    height: 220px;
+    width: 100%;
+}
+.block_4{
+    background: white;
+}
+
+.block_5 img{
+    height: 230px;
+    width: 100%;
+}
+.block_5{
+    background: white;
+}
+
+
+.block_6 img{
+    height: 250px;
+    width: 100%;
+}
+.block_6{
+    background: white;
+}
+
+.block_7 img{
+    height: 100px;
+    width: 100%;
+}
+.block_7{
+    background: white;
+}
+
+.block_8 img{
+    height: 150px;
+    width: 100%;
+}
+.block_8{
+    background: white;
+}
+
+
+.block_9 img{
+    height: 150px;
+    width: 100%;
+}
+.block_9{
+    background: white;
+}
+

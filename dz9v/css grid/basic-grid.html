@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <style></style>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+<style>
+    * {
+        
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .grid_wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .grid_wrapper_element {
+        background-color: aqua;
+        border: 1px solid black;
+        height: 188 hv;
+        gap: 10px 20px;
+
+
+    }
+</style>
+
+<body style="background-color: tomato;">
+
+    <div grid_wrapper_element>1</div>
+    <div grid_wrapper_element>2</div>
+    <div grid_wrapper_element>3</div>
+    <div grid_wrapper_element>4</div>
+    <div grid_wrapper_element>5</div>
+    <div grid_wrapper_element>6</div>
+    <div grid_wrapper_element>7</div>
+    <div grid_wrapper_element>8</div>
+    <div grid_wrapper_element>9</div>
+    <div grid_wrapper_element></div>
+    <div grid_wrapper_element></div>
+    <div grid_wrapper_element></div>
+
+
+</body>
+
+</html>
